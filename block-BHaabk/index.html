@@ -1,0 +1,88 @@
+<!-- 
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Use flexbox properties and values to create columns.
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Nanum+Myeongjo&family=Poiret+One&display=swap"
+        rel="stylesheet">
+
+    <title>MayaLuxuria | Home</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a class="brand" href="#">
+                <h1>MayaLuxuria</h1>
+            </a>
+
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Inventory</a>
+                <a href="#">Discover</a>
+                <a href="#">My Account</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <div class="hero-sect">
+                <div class="hero-intro">
+                    <h2>MayaLuxuria</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse ut est sit amet nibh tincidunt malesuada ac id orci.
+                        Nunc pellentesque pretium dui et ullamcorper. Donec sit amet lorem
+                        ut dolor congue tempus id porttitor justo.
+                    </p>
+                </div>
+                <div class="hero-img">
+                    <img src="assets/gearStick.jpg" alt="Auto">
+                </div>
+            </div>
+        </article>
+        <article class="gallery">
+            <section>
+                <div class="gal-row">
+                    <img src="assets/electricPump.jpg" alt="electric pump">
+                    <img src="assets/dashboard.jpg" alt="dashboard">
+                    <img src="assets/headlighsSUV.jpg" alt="Headlights">
+                </div>
+            </section>
+
+            <section>
+                <div class="gal-row">
+                    <img src="assets/rearBlackVehicle.jpg" alt="black vehicle">
+                    <img src="assets/driver.jpg" alt="driver">
+                    <img src="assets/silverEngine.jpg" alt="engine">
+                </div>
+            </section>
+        
+        </article>
+    </main>
+    <footer>
+
+        <p>&copy;MayaLuxuria 2023.</p>
+    </footer>
+</body>
+
+</html>
