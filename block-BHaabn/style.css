@@ -1,0 +1,246 @@
+/*Resets*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*Customizations*/
+
+
+/*General*/
+body{
+    background-color: #FAF3F0;
+}
+
+header{
+    background-color: #ba778c;
+    height: 20vh;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+   
+   
+}
+/*font title:*/
+
+.brand {
+    color: #FAF3F0;
+    font-size: 128px;
+    padding: 40px 10px 40px 10px;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Poiret One', cursive;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: #FAF3F0;
+    font-size: 38px;
+    padding: 20px;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Red Hat Display', sans-serif;
+    text-transform: uppercase;
+}
+
+
+h1 {
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Poiret One', cursive;
+    color: #461320;
+    font-size: 64px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+footer{
+    background-color: #ba778c;
+    height:20vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer p{
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.bottom-nav {
+    margin: 20px;
+    padding: 30px;
+}
+.gallery-container{
+    padding:10px;
+    margin:50px;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+   
+   
+}
+
+.flex-item {
+    padding: 20px;
+    margin: 5px;
+    width: 30%;
+    height: auto;
+
+    
+}
+
+    
+.gallery-container img{
+    border-radius: 2px;
+    width: 100%;
+}
+/*font content*/
+/* font-family: 'DM Serif Display',
+serif;
+font-family: 'Nanum Myeongjo',
+serif;
+font-family: 'Noto Serif',
+serif;
+font-family: 'Poiret One',
+cursive;
+font-family: 'Red Hat Display',sans-serif; */
